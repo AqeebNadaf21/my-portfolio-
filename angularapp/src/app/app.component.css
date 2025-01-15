@@ -1,0 +1,11 @@
+/* Mobile Display */
+:host {
+    display: block;
+    background-color: var(--black);
+}
+
+/* PC Display */
+:host.pc .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
